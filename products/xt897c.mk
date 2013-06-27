@@ -4,9 +4,6 @@ $(call inherit-product, vendor/aokp/configs/cdma.mk)
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/aokp/configs/common.mk)
 
-# Enhanced NFC
-#$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
-
 # Boot animation
 TARGET_SCREEN_WIDTH := 540
 TARGET_SCREEN_HEIGHT := 960
