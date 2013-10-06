@@ -1,8 +1,8 @@
 ## Specify phone tech before including full_phone
-$(call inherit-product, vendor/aokp/config/gsm.mk)
+$(call inherit-product, vendor/aokp/configs/gsm.mk)
 
 # Inherit some common AOKP stuff. 
-$(call inherit-product, vendor/aokp/config/common.mk)
+$(call inherit-product, vendor/aokp/configs/common.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 720
